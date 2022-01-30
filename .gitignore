@@ -44,6 +44,7 @@ jspm_packages/
 # excluded folder
 client/src
 client/public
+galaxyminers
 
 # TypeScript v1 declaration files
 typings/
