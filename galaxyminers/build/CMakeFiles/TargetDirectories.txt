@@ -1,0 +1,3 @@
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/galaxyminers_project.dir
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/edit_cache.dir

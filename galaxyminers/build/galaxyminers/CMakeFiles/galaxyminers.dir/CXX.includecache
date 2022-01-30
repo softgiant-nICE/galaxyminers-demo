@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/src/../include/galaxyminers.hpp
+eosio/eosio.hpp
+-
+eosio/asset.hpp
+-
+eosio/singleton.hpp
+-
+eosio/permission.hpp
+-
+
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/src/galaxyminers.cpp
+galaxyminers.hpp
+-
+../utils/utils.cpp
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/utils/utils.cpp
+eosio/crypto.hpp
+-
+eosio/time.hpp
+-
+eosio/system.hpp
+-
+
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/utils/utils.cpp
+

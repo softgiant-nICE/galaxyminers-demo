@@ -1,0 +1,14 @@
+# Target labels
+ galaxyminers_project
+# Source files and their labels
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/galaxyminers_project
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/galaxyminers_project.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/galaxyminers_project-complete.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-install.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-mkdir.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-download.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-update.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-patch.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-configure.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-build.rule
+/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-test.rule

@@ -1,0 +1,1017 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [
+        {
+            "new_type_name": "asset_id_type",
+            "type": "uint64"
+        },
+        {
+            "new_type_name": "durability_type",
+            "type": "uint16"
+        },
+        {
+            "new_type_name": "energy_type",
+            "type": "uint16"
+        },
+        {
+            "new_type_name": "template_id_type",
+            "type": "uint32"
+        }
+    ],
+    "structs": [
+        {
+            "name": "account2fa_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "pubkey",
+                    "type": "public_key"
+                },
+                {
+                    "name": "features",
+                    "type": "uint64"
+                },
+                {
+                    "name": "unlock_duration",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "addbcraft",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint32"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "saved_claims",
+                    "type": "uint8"
+                },
+                {
+                    "name": "additional_slots",
+                    "type": "uint8"
+                },
+                {
+                    "name": "additional_energy",
+                    "type": "uint16"
+                },
+                {
+                    "name": "rewards_rate",
+                    "type": "uint8"
+                },
+                {
+                    "name": "lucky",
+                    "type": "uint8"
+                },
+                {
+                    "name": "plasmas_mint",
+                    "type": "asset"
+                },
+                {
+                    "name": "coins_mint",
+                    "type": "uint16"
+                },
+                {
+                    "name": "unstaking_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "charged_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "addconfbadge",
+            "base": "",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "uint32"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "badge_img",
+                    "type": "string"
+                },
+                {
+                    "name": "saved_claims",
+                    "type": "uint8"
+                },
+                {
+                    "name": "additional_slots",
+                    "type": "uint8"
+                },
+                {
+                    "name": "additional_energy",
+                    "type": "uint16"
+                },
+                {
+                    "name": "rewards_rate",
+                    "type": "uint8"
+                },
+                {
+                    "name": "lucky",
+                    "type": "uint8"
+                },
+                {
+                    "name": "plasmas_mint",
+                    "type": "asset"
+                },
+                {
+                    "name": "coins_mint",
+                    "type": "uint16"
+                },
+                {
+                    "name": "unstaking_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "charged_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "addconfitem",
+            "base": "",
+            "fields": [
+                {
+                    "name": "schema_name",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "can_burn",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "addconfmkt",
+            "base": "",
+            "fields": [
+                {
+                    "name": "schema_name",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "cost",
+                    "type": "asset[]"
+                }
+            ]
+        },
+        {
+            "name": "addconftool",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_name",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "schema_name",
+                    "type": "name"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "rarity",
+                    "type": "string"
+                },
+                {
+                    "name": "level",
+                    "type": "uint8"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "energy_consumed",
+                    "type": "energy_type"
+                },
+                {
+                    "name": "durability_consumed",
+                    "type": "durability_type"
+                },
+                {
+                    "name": "mints",
+                    "type": "asset[]"
+                },
+                {
+                    "name": "rewards",
+                    "type": "asset[]"
+                },
+                {
+                    "name": "charged_time",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "addgadget",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "asset_id_type"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "durability",
+                    "type": "durability_type"
+                },
+                {
+                    "name": "current_durability",
+                    "type": "durability_type"
+                },
+                {
+                    "name": "next_availability",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "addplayer",
+            "base": "",
+            "fields": [
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "referral_partner",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "addsetting",
+            "base": "",
+            "fields": [
+                {
+                    "name": "init_energy",
+                    "type": "energy_type"
+                },
+                {
+                    "name": "init_max_energy",
+                    "type": "energy_type"
+                },
+                {
+                    "name": "reward_noise_min",
+                    "type": "uint32"
+                },
+                {
+                    "name": "reward_noise_max",
+                    "type": "uint32"
+                },
+                {
+                    "name": "min_fee",
+                    "type": "uint8"
+                },
+                {
+                    "name": "max_fee",
+                    "type": "uint8"
+                },
+                {
+                    "name": "last_fee_updated",
+                    "type": "uint64"
+                },
+                {
+                    "name": "fee",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "badgecraft_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint32"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "saved_claims",
+                    "type": "uint8"
+                },
+                {
+                    "name": "additional_slots",
+                    "type": "uint8"
+                },
+                {
+                    "name": "additional_energy",
+                    "type": "uint16"
+                },
+                {
+                    "name": "rewards_rate",
+                    "type": "uint8"
+                },
+                {
+                    "name": "lucky",
+                    "type": "uint8"
+                },
+                {
+                    "name": "plasmas_mint",
+                    "type": "asset"
+                },
+                {
+                    "name": "coins_mint",
+                    "type": "uint16"
+                },
+                {
+                    "name": "unstaking_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "charged_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "badges_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "asset_id_type"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "next_availability",
+                    "type": "uint64"
+                },
+                {
+                    "name": "unstaking_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "check",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "claim_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "validator",
+                    "type": "name"
+                },
+                {
+                    "name": "is_verified",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "claim",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_owner",
+                    "type": "name"
+                },
+                {
+                    "name": "asset_id",
+                    "type": "asset_id_type"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "configbadge_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "uint32"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "badge_img",
+                    "type": "string"
+                },
+                {
+                    "name": "saved_claims",
+                    "type": "uint8"
+                },
+                {
+                    "name": "additional_slots",
+                    "type": "uint8"
+                },
+                {
+                    "name": "additional_energy",
+                    "type": "uint16"
+                },
+                {
+                    "name": "rewards_rate",
+                    "type": "uint8"
+                },
+                {
+                    "name": "lucky",
+                    "type": "uint8"
+                },
+                {
+                    "name": "plasmas_mint",
+                    "type": "asset"
+                },
+                {
+                    "name": "coins_mint",
+                    "type": "uint16"
+                },
+                {
+                    "name": "unstaking_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "charged_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "configitem_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "schema_name",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "can_burn",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "configmarket_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "schema_name",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "cost",
+                    "type": "asset[]"
+                }
+            ]
+        },
+        {
+            "name": "configtools_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_name",
+                    "type": "string"
+                },
+                {
+                    "name": "img",
+                    "type": "string"
+                },
+                {
+                    "name": "schema_name",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "rarity",
+                    "type": "string"
+                },
+                {
+                    "name": "level",
+                    "type": "uint8"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "energy_consumed",
+                    "type": "energy_type"
+                },
+                {
+                    "name": "durability_consumed",
+                    "type": "durability_type"
+                },
+                {
+                    "name": "mints",
+                    "type": "asset[]"
+                },
+                {
+                    "name": "rewards",
+                    "type": "asset[]"
+                },
+                {
+                    "name": "charged_time",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "delconfbadge",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "delconfitem",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                }
+            ]
+        },
+        {
+            "name": "delconfmkt",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                }
+            ]
+        },
+        {
+            "name": "delsetting",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "friends_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "tier",
+                    "type": "uint8"
+                },
+                {
+                    "name": "is_active",
+                    "type": "bool"
+                },
+                {
+                    "name": "totals",
+                    "type": "asset[]"
+                }
+            ]
+        },
+        {
+            "name": "gadgets_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "asset_id_type"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "template_id_type"
+                },
+                {
+                    "name": "durability",
+                    "type": "durability_type"
+                },
+                {
+                    "name": "current_durability",
+                    "type": "durability_type"
+                },
+                {
+                    "name": "next_availability",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "players_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "energy",
+                    "type": "energy_type"
+                },
+                {
+                    "name": "max_energy",
+                    "type": "energy_type"
+                },
+                {
+                    "name": "last_mine_tx",
+                    "type": "checksum256"
+                },
+                {
+                    "name": "balances",
+                    "type": "asset[]"
+                }
+            ]
+        },
+        {
+            "name": "setting_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "init_energy",
+                    "type": "energy_type"
+                },
+                {
+                    "name": "init_max_energy",
+                    "type": "energy_type"
+                },
+                {
+                    "name": "reward_noise_min",
+                    "type": "uint32"
+                },
+                {
+                    "name": "reward_noise_max",
+                    "type": "uint32"
+                },
+                {
+                    "name": "min_fee",
+                    "type": "uint8"
+                },
+                {
+                    "name": "max_fee",
+                    "type": "uint8"
+                },
+                {
+                    "name": "last_fee_updated",
+                    "type": "uint64"
+                },
+                {
+                    "name": "fee",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "tassetmint",
+            "base": "",
+            "fields": [
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "memo",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "tempassets_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "asset_id_type"
+                },
+                {
+                    "name": "asset_owner",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "testclaim",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_owner",
+                    "type": "name"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "addbcraft",
+            "type": "addbcraft",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addconfbadge",
+            "type": "addconfbadge",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addconfitem",
+            "type": "addconfitem",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addconfmkt",
+            "type": "addconfmkt",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addconftool",
+            "type": "addconftool",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addgadget",
+            "type": "addgadget",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addplayer",
+            "type": "addplayer",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addsetting",
+            "type": "addsetting",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "claim",
+            "type": "claim",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delconfbadge",
+            "type": "delconfbadge",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delconfitem",
+            "type": "delconfitem",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delconfmkt",
+            "type": "delconfmkt",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delsetting",
+            "type": "delsetting",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "tassetmint",
+            "type": "tassetmint",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "testclaim",
+            "type": "testclaim",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "account2fa",
+            "type": "account2fa_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "badgecraft",
+            "type": "badgecraft_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "badges",
+            "type": "badges_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "check",
+            "type": "check",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "configbadge",
+            "type": "configbadge_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "configitem",
+            "type": "configitem_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "configmarket",
+            "type": "configmarket_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "configtools",
+            "type": "configtools_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "friends",
+            "type": "friends_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "gadgets",
+            "type": "gadgets_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "players",
+            "type": "players_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "setting",
+            "type": "setting_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "tempassets",
+            "type": "tempassets_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}

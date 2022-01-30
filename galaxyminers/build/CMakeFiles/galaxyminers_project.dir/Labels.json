@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/galaxyminers_project"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/galaxyminers_project.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/CMakeFiles/galaxyminers_project-complete.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-install.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-mkdir.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-download.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-update.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-patch.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-configure.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-build.rule"
+		},
+		{
+			"file" : "/home/ubuntu/Desktop/Ubuntu/Contracts/galaxyminers/build/galaxyminers_project-prefix/src/galaxyminers_project-stamp/galaxyminers_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"galaxyminers_project"
+		],
+		"name" : "galaxyminers_project"
+	}
+}
